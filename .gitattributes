@@ -1,1 +1,6 @@
 * text=auto
+
+# Ignore les fichiers inutiles dans les exports Composer
+/tests export-ignore
+/.github export-ignore
+/.env export-ignore
