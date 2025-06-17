@@ -1,0 +1,27 @@
+{
+    "name": "admin-toolkit/core",
+    "description": "Laravel Admin Toolkit - package artisan générique pour l'administration multi-projets Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "PERNOT Evan",
+        "email": "pernot.evan03@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "AdminToolkit\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0",
+        "spatie/laravel-permission": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AdminToolkit\\AdminToolkitServiceProvider"
+            ]
+        }
+    }
+}
